@@ -1,0 +1,69 @@
+{
+  "_lab_result_example": {
+    "classification": {
+      "category": "lab_result",
+      "subtype": "urinalysis"
+    },
+    "patient": {
+      "full_name": null,
+      "iin": null,
+      "birth_date": null,
+      "sex": null
+    },
+    "lab_meta": {
+      "lab_name": null,
+      "material": null,
+      "collection_date": null,
+      "lab_ids": []
+    },
+    "lab_results": [
+      {
+        "section": null,
+        "Показатель": null,
+        "value": null,
+        "unit": null,
+        "reference_range": null,
+        "is_abnormal": null,
+        "source_text": null
+      }
+    ],
+    "extraction_stats": {
+      "sections_found": 0,
+      "parameters_total": 0,
+      "parameters_extracted": 0
+    }
+  },
+  "_medical_report_example": {
+    "classification": {
+      "category": "medical_report",
+      "subtype": "medical_certificate"
+    },
+    "patient": {
+      "full_name": null,
+      "iin": null,
+      "birth_date": null,
+      "sex": null
+    },
+    "report_meta": {
+      "report_type": null,
+      "issue_date": null,
+      "issuing_facility": null,
+      "issuing_doctor": null
+    },
+    "specialist_examinations": [
+      {
+        "specialist": null,
+        "date": null,
+        "doctor": null,
+        "findings": null,
+        "conclusion": null,
+        "is_healthy": null
+      }
+    ],
+    "diagnostic_tests": {},
+    "extraction_stats": {
+      "sections_found": 0,
+      "specialists_extracted": 0
+    }
+  }
+}
