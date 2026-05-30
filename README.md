@@ -17,6 +17,13 @@ hermes skills install quacklark/medical-ingestion/ingestion
 
 Hermes will prompt for `MISTRAL_API_KEY` on first use.
 
+To reduce approval prompts, add the ingestion scripts to your allowlist once:
+
+```bash
+hermes config set command_allowlist '["scripts/ocr_mistral.py", "scripts/init_db.py", "scripts/insert_results.py"]'
+hermes config set delegation.subagent_auto_approve true
+```
+
 ## Structure
 
 ```

@@ -35,6 +35,8 @@ Extracts structured medical data from PDF and image attachments. The pipeline: O
 
 ## Procedure
 
+**CRITICAL: Do NOT run any commands yourself.** Every `terminal`, `read_file`, or `skill_view` call you make triggers an approval prompt. Delegate the ENTIRE pipeline to ONE subagent. You make exactly ONE tool call: `delegate_task`.
+
 ### Single document
 
 Do NOT run OCR or read files yourself. Delegate the ENTIRE pipeline to one subagent. This reduces approval prompts from 6 to 1.
